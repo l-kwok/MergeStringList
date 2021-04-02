@@ -1,5 +1,21 @@
 # MergeStringList
 
+## Build and Run:
+```shell
+#NOTE: Requires C++20
+#Build and Run
+make && ./main
+
+#clean
+make clean
+```
+
+## Prerequisites:
+
+1. C++20
+
+2. Make
+
 ## Question: 
 Write an immutable function that merges the following inputs into a single list.
 
@@ -35,17 +51,4 @@ Delete List = ['aa']
 
 Result List = ['aaaaa', 'za', 'ba', 'az', 'ac', 'ab', 'z', 'c', 'b', 'a']
 
-## Prerequisites:
 
-1. C++20
-
-2. Make
-
-## Build and Run:
-```shell
-#Build and Run
-make && ./main
-
-#clean
-make clean
-```
